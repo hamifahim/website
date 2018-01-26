@@ -1,0 +1,143 @@
+
+
+* {
+    margin: 0px;
+    padding:0px;
+    font-family: arial;
+}
+
+body {
+
+    background:url(image/degrader.JPG);
+    margin: auto;
+    width: 900px;
+    
+}
+.corps{
+    height: 400px;
+    width: 900px;
+    background-color:activeborder;
+}
+header h1{
+    position:absolute;
+    top: 140px;
+    left: 700px;
+    font-size: 200%;
+    color: black
+}
+header{
+   background-image:url(image/footer_bg.jpg);
+   background-repeat: no-repeat;
+    width:  900px;
+    height: 251px;
+
+
+
+}
+nav   {
+
+    padding: 3px 0;   /* 3px top and bottom, 0px left and right */
+    margin: 10px 0px 10px 0px;  /* top right bottom left */ 
+    border-bottom: 1px solid #778; /* width style color */
+    width:900px;
+
+}
+
+nav  {
+/*    list-style: none;  No marker is shown 
+    margin: 0; 
+    background: #000000;
+
+    text-align: center*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+nav  a {
+    float: left;
+    border-right:1px solid #bbb;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+
+
+}
+#co{
+border-right:none
+}
+#c{
+border-right:none
+}
+#d{
+border-right:none
+}
+h1{
+
+    backface-visibility: hidden;
+    font-size: 80%;
+    alignment-adjust: central;
+    color: black;
+    text-align: center
+}
+nav{
+    nav-down: auto;
+    text-align: center
+}
+.docInfo {
+    
+    font: 80% serif ;
+    color:#669;
+    background:#cccccc;
+    text-align: center;
+
+
+
+
+
+}
+
+section{
+    margin: 0.1em;
+    padding: 2em;
+
+}
+h2 ul il{
+    border-style: outset;
+    border-color: #ffffff;
+    background: #cc00cc
+
+}
+.arezki{
+    position: absolute;
+    top: 310px;
+    left: 900px;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 250px;
+    width: 900px;
+}
+
+
+p{
+    text-align: justify;
+}
+.exp{
+    height: 300px;
+}
